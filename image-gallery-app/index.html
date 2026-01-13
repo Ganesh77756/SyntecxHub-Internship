@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h2 class="title">Image Gallery</h2>
+
+  <!-- GALLERY -->
+  <div class="gallery" id="gallery"></div>
+
+  <!-- FULLSCREEN MODAL -->
+  <div class="modal" id="modal">
+    <span class="close" id="close">&times;</span>
+    <img id="modalImg" />
+  </div>
+
+  <!-- ADD / DELETE IMAGE BAR -->
+  <div class="add-box">
+    <input type="text" id="imgTitle" placeholder="Image title / description (optional)" />
+    <input type="text" id="imgUrl" placeholder="Image URL (required)" />
+    <button id="addBtn">Add Image</button>
+    <button id="deleteBtn">Delete Image</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
